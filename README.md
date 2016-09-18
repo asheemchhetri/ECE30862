@@ -2,16 +2,12 @@
 The content available on this repository, pertains to **OOP** class taken at **Purdue University**.
 
 ---
-<<<<<<< HEAD
 ![alt text](java.jpg "Java Image")
 > Image Courtesy: http://www.softpedia.com/get/Programming/SDK-DDK/Sun-Java-JDK.shtml
 
 ![alt text](Cpp.jpg "C++ Image")
 > Image Courtesy: https://www.planet-source-code.com/vb/default.asp?lngWId=3
-=======
-![alt text](java.jpg "Java Image") 
-![alt text](Cpp.jpg "C++ Image")
->>>>>>> 38b53034987dd34919263d9c3b6f67a443d0f5fe
+
 ###### Term: Fall 2016
 ###### Professor: Prof. Sam Midkiff
 ###### IDE: Eclipse, IntelliJ

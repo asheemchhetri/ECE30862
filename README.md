@@ -3,7 +3,7 @@ The content available on this repository, pertains to **OOP** class taken at **P
 
 ---
 ![alt text](java.jpg "Java Image") 
-![alt text](cpp.jpg "C++ Image")
+![alt text](Cpp.jpg "C++ Image")
 ###### Term: Fall 2016
 ###### Professor: Prof. Sam Midkiff
 ###### IDE: Eclipse, IntelliJ

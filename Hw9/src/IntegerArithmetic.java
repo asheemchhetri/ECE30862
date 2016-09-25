@@ -9,29 +9,29 @@ public class IntegerArithmetic {
 	 * All other instances must throw an exception, which is caught in main.java
 	 */
 	public static Long add(Object op1, Object op2) {
-		long I1 = 0;
-		long I2 = 0;
+		long l1 = 0;
+		long l2 = 0;
 		if (op1 instanceof Long && op2 instanceof Long) {
-			I1 = ((Long) op1).longValue();
-			I2 = ((Long) op2).longValue();
+			l1 = ((Long) op1).longValue();
+			l2 = ((Long) op2).longValue();
 //			System.out.println("Long type");
 		} else if (op1 instanceof Integer && op2 instanceof Integer) {
-			I1 = ((Integer) op1).longValue();
-			I2 = ((Integer) op2).longValue();
+			l1 = ((Integer) op1).longValue();
+			l2 = ((Integer) op2).longValue();
 //			System.out.println("Integer type");
 		}
 		else if (op1 instanceof Integer && op2 instanceof Long) {
-			I1 = ((Integer) op1).longValue();
-			I2 = ((Long) op2).longValue();
+			l1 = ((Integer) op1).longValue();
+			l2 = ((Long) op2).longValue();
 //			System.out.println("Integer / Long type");
 		}
 		else if (op1 instanceof Long && op2 instanceof Integer) {
-			I1 = ((Long) op1).longValue();
-			I2 = ((Integer) op2).longValue();
+			l1 = ((Long) op1).longValue();
+			l2 = ((Integer) op2).longValue();
 //			System.out.println("Long / Integer type");
 		}
 		else throw new ClassCastException();
-		return (I1 + I2);
+		return (l1 + l2);
 	}
 	
 	/*
@@ -47,29 +47,29 @@ public class IntegerArithmetic {
 	 * subtrahend: op2
 	 */
 	public static Long subtract(Object op1, Object op2) {
-		long I1 = 0;
-		long I2 = 0;
+		long l1 = 0;
+		long l2 = 0;
 		if (op1 instanceof Long && op2 instanceof Long) {
-			I1 = ((Long) op1).longValue();
-			I2 = ((Long) op2).longValue();
+			l1 = ((Long) op1).longValue();
+			l2 = ((Long) op2).longValue();
 //			System.out.println("Long type");
 		} else if (op1 instanceof Integer && op2 instanceof Integer) {
-			I1 = ((Integer) op1).longValue();
-			I2 = ((Integer) op2).longValue();
+			l1 = ((Integer) op1).longValue();
+			l2 = ((Integer) op2).longValue();
 //			System.out.println("Integer type");
 		}
 		else if (op1 instanceof Integer && op2 instanceof Long) {
-			I1 = ((Integer) op1).longValue();
-			I2 = ((Long) op2).longValue();
+			l1 = ((Integer) op1).longValue();
+			l2 = ((Long) op2).longValue();
 //			System.out.println("Integer / Long type");
 		}
 		else if (op1 instanceof Long && op2 instanceof Integer) {
-			I1 = ((Long) op1).longValue();
-			I2 = ((Integer) op2).longValue();
+			l1 = ((Long) op1).longValue();
+			l2 = ((Integer) op2).longValue();
 //			System.out.println("Long / Integer type");
 		}
 		else throw new ClassCastException();
-		return (I1 - I2);
+		return (l1 - l2);
 	}
 
 	/*
@@ -82,29 +82,29 @@ public class IntegerArithmetic {
 	 * All other instances must throw an exception, which is caught in main.java
 	 */
 	public static Long multiply(Object op1, Object op2) {
-		long I1 = 0;
-		long I2 = 0;
+		long l1 = 0;
+		long l2 = 0;
 		if (op1 instanceof Long && op2 instanceof Long) {
-			I1 = ((Long) op1).longValue();
-			I2 = ((Long) op2).longValue();
+			l1 = ((Long) op1).longValue();
+			l2 = ((Long) op2).longValue();
 //			System.out.println("Long type");
 		} else if (op1 instanceof Integer && op2 instanceof Integer) {
-			I1 = ((Integer) op1).longValue();
-			I2 = ((Integer) op2).longValue();
+			l1 = ((Integer) op1).longValue();
+			l2 = ((Integer) op2).longValue();
 //			System.out.println("Integer type");
 		}
 		else if (op1 instanceof Integer && op2 instanceof Long) {
-			I1 = ((Integer) op1).longValue();
-			I2 = ((Long) op2).longValue();
+			l1 = ((Integer) op1).longValue();
+			l2 = ((Long) op2).longValue();
 //			System.out.println("Integer / Long type");
 		}
 		else if (op1 instanceof Long && op2 instanceof Integer) {
-			I1 = ((Long) op1).longValue();
-			I2 = ((Integer) op2).longValue();
+			l1 = ((Long) op1).longValue();
+			l2 = ((Integer) op2).longValue();
 //			System.out.println("Long / Integer type");
 		}
 		else throw new ClassCastException();
-		return (I1 * I2);
+		return (l1 * l2);
 	}
 	
 	/*
@@ -119,34 +119,34 @@ public class IntegerArithmetic {
 	 * main.java.
 	 */
 	public static Long divide(Object op1, Object op2){
-		long I1 = 0;
-		long I2 = 0;
+		long l1 = 0;
+		long l2 = 0;
 		if (op1 instanceof Long && op2 instanceof Long) {
-			I1 = ((Long) op1).longValue();
-			I2 = ((Long) op2).longValue();
+			l1 = ((Long) op1).longValue();
+			l2 = ((Long) op2).longValue();
 //			System.out.println("Long type");
 		} else if (op1 instanceof Integer && op2 instanceof Integer) {
-			I1 = ((Integer) op1).longValue();
-			I2 = ((Integer) op2).longValue();
+			l1 = ((Integer) op1).longValue();
+			l2 = ((Integer) op2).longValue();
 //			System.out.println("Integer type");
 		}
 		else if (op1 instanceof Integer && op2 instanceof Long) {
-			I1 = ((Integer) op1).longValue();
-			I2 = ((Long) op2).longValue();
+			l1 = ((Integer) op1).longValue();
+			l2 = ((Long) op2).longValue();
 //			System.out.println("Integer / Long type");
 		}
 		else if (op1 instanceof Long && op2 instanceof Integer) {
-			I1 = ((Long) op1).longValue();
-			I2 = ((Integer) op2).longValue();
+			l1 = ((Long) op1).longValue();
+			l2 = ((Integer) op2).longValue();
 //			System.out.println("Long / Integer type");
 		}
 		else throw new ClassCastException();
 		
 		//Division by 0 error
-		if(I2 == 0)
+		if(l2 == 0)
 		{
 			throw new ArithmeticException();
 		}
-		else	return(I1 / I2);
+		else	return(l1 / l2);
 	}
 }

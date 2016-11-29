@@ -15,11 +15,11 @@ Java web application build with Java using Spring Framework and Maven Dependenci
 
  6. Choose Generic server H2 in saved settings option and copy the JDBC url.
 
- 7. Now go to the file web app => WEB_INF => open the file <<applicationContext.xml>>
+ 7. Now go to the file web app => WEB_INF => open the file applicationContext.xml
 
  8. On line 10, replace the value field with the JDBC URL you copied earlier.
 
- 9. Setup Apache server fro IntelliJ by a quick google search, IntelliJ?>, the process takes roughly 1 minute.
+ 9. Setup Apache server fro IntelliJ by a quick google search, How to setup Tomact server for IntelliJ?, the process takes roughly 1 minute.
 
  10. While setting up the server, make sure to setup the Application Context field under deployment to /eMusicStore.
 

@@ -1,0 +1,54 @@
+.container-wrapper {
+    height: 80%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 300px;
+}
+
+.home-image {
+    /*display: block;*/
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.table {
+    table-layout: fixed;
+    overflow: auto;
+}
+
+.table th {
+    text-align: center;
+}
+
+.table td {
+    text-align: center;
+    background: whitesmoke;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.form-group{
+    width: 50%;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.login-header{
+    text-align: center;
+}
+
+.login-form-box{
+    width: 100%;
+}
+.login-container {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+}
+.productListGlyph{
+    color: #D96125;
+    font-size:20px;
+}

@@ -12,6 +12,7 @@ The content available on this repository, pertains to **OOP** class taken at **P
 ###### Professor: Prof. Sam Midkiff
 ###### IDE: Eclipse, IntelliJ
 ###### [Course Website](https://engineering.purdue.edu/~smidkiff/ece30862/)
+###### Password for C++ project: 8*ReSZ>=
 ---
 
 1. This repo contains all possible solutions to HomeWork problems in this class.

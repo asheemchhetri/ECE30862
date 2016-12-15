@@ -1,6 +1,8 @@
 # ECE 30862
 The content available on this repository, pertains to **OOP** class taken at **Purdue University**.
 
+## Password for C++ project: 8*ReSZ>=
+
 ---
 ![alt text](java.jpg "Java Image")
 > Image Courtesy: http://www.softpedia.com/get/Programming/SDK-DDK/Sun-Java-JDK.shtml
@@ -12,7 +14,6 @@ The content available on this repository, pertains to **OOP** class taken at **P
 ###### Professor: Prof. Sam Midkiff
 ###### IDE: Eclipse, IntelliJ
 ###### [Course Website](https://engineering.purdue.edu/~smidkiff/ece30862/)
-###### Password for C++ project: 8*ReSZ>=
 ---
 
 1. This repo contains all possible solutions to HomeWork problems in this class.
